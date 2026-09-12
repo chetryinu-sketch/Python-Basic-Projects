@@ -1,0 +1,6 @@
+sentence=input("Enter a sentence:")
+print("Number of characters:",len(sentence))
+print("number of words in the sentence:",len(sentence.split()))
+print("Sentence in uppercase:",sentence.upper())
+print("Sentence in lowercase:",sentence.lower())
+print("Senetence in Reversed order:",sentence[::-1])
